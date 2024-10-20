@@ -5,7 +5,7 @@ const Contact = () => {
     <Container>
       <Row>
         <Col>
-          <h1>Связь с нами</h1>
+          <h1 className='text-primary'>Связь с нами</h1>
           <p>Не стесняйтесь обращаться к нам через контактную форму нижу или через наши каналы в социальных сетях.</p>
           <Form>
             <Form.Group controlId="formName">
