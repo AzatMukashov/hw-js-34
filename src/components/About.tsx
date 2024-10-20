@@ -5,13 +5,13 @@ const About = () => {
     <Container>
       <Row>
         <Col>
-          <h1>О нас</h1>
+          <h1 className='text-primary my-4'>О нас</h1>
           <p>Мы - компания, которая ценит совершенство. Наша цель - превзойти ожидания клиентов и предоставить
             превосходную ценность.</p>
-          <h3>Наша команда</h3>
+          <h3 className='my-4'>Наша команда</h3>
           <Row>
             <Col md={4}>
-              <Card>
+              <Card className='mb-4'>
                 <Card.Img variant="top" src="https://via.placeholder.com/150"/>
                 <Card.Body>
                   <Card.Title>Джон До</Card.Title>
@@ -22,7 +22,7 @@ const About = () => {
               </Card>
             </Col>
             <Col md={4}>
-              <Card>
+              <Card className='mb-4'>
                 <Card.Img variant="top" src="https://via.placeholder.com/150"/>
                 <Card.Body>
                   <Card.Title>Джейн Смит</Card.Title>
@@ -33,7 +33,7 @@ const About = () => {
               </Card>
             </Col>
             <Col md={4}>
-              <Card>
+              <Card className='mb-4'>
                 <Card.Img variant="top" src="https://via.placeholder.com/150"/>
                 <Card.Body>
                   <Card.Title>Эмили Джонсон</Card.Title>
