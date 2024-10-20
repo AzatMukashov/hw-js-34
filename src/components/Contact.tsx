@@ -20,7 +20,7 @@ const Contact = () => {
               <Form.Label>Сообщение</Form.Label>
               <Form.Control as="textarea" rows={3} placeholder="Ваше сообщение"/>
             </Form.Group>
-            <Button variant="primary" type="submit">Отправить</Button>
+            <Button variant="primary" type="submit" className='mt-1'>Отправить</Button>
           </Form>
           <h3>Наше местоположение</h3>
           <p>123 Главная улица, Город, Страна</p>
