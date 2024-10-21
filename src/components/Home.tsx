@@ -1,4 +1,4 @@
-import { Card, Col, Container, Row } from 'react-bootstrap';
+import { Card, Col, Container, Row } from "react-bootstrap";
 
 const Home = () => {
   return (
@@ -8,9 +8,12 @@ const Home = () => {
           <h1 className="text-primary my-4">Домашняя страница</h1>
           <Card className="mb-4">
             <Card.Body>
-              <Card.Title>Добро пожаловать на сайт! Рады вас видеть.</Card.Title>
+              <Card.Title>
+                Добро пожаловать на сайт! Рады вас видеть.
+              </Card.Title>
               <Card.Text>
-                Наша миссия - предоставлять первоклассные услуги и создавать непреходящую ценность для наших клиентов.
+                Наша миссия - предоставлять первоклассные услуги и создавать
+                непреходящую ценность для наших клиентов.
               </Card.Text>
             </Card.Body>
           </Card>
